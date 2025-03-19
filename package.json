@@ -1,0 +1,37 @@
+{
+  "name": "pandoc-ui",
+  "private": true,
+  "version": "0.0.0",
+  "type": "module",
+  "scripts": {
+    "dev": "vite",
+    "build": "vite build",
+    "lint": "eslint . --ext js,jsx --report-unused-disable-directives --max-warnings 0",
+    "preview": "vite preview"
+  },
+  "dependencies": {
+    "@fontsource/nunito": "^5.2.5",
+    "@tailwindcss/vite": "^4.0.14",
+    "@tanstack/react-query": "^5.69.0",
+    "@uiw/react-md-editor": "^4.0.5",
+    "connectkit": "^1.8.2",
+    "hypercyclejs": "^0.0.1",
+    "js-confetti": "^0.12.0",
+    "lucide-react": "^0.483.0",
+    "react": "^18.2.0",
+    "react-dom": "^18.2.0",
+    "serve": "^14.2.4",
+    "tailwindcss": "^4.0.14",
+    "wagmi": "^2.14.15"
+  },
+  "devDependencies": {
+    "@types/react": "^18.2.15",
+    "@types/react-dom": "^18.2.7",
+    "@vitejs/plugin-react-swc": "^3.3.2",
+    "eslint": "^8.45.0",
+    "eslint-plugin-react": "^7.32.2",
+    "eslint-plugin-react-hooks": "^4.6.0",
+    "eslint-plugin-react-refresh": "^0.4.3",
+    "vite": "^6.2.2"
+  }
+}

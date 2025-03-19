@@ -1,0 +1,42 @@
+@import "tailwindcss";
+
+#root {
+  min-height: 100vh;
+  width: 100%;
+  margin: 0 auto;
+  text-align: center;
+  text-wrap: balance;
+  display: grid;
+  grid-template-areas: 
+    "header"
+    "main"
+    "footer";
+  grid-template-rows: auto 1fr auto;
+}
+
+header {
+  grid-area: header;
+  min-width: 100vw;
+  padding: 1rem;
+  padding-bottom: 1.5rem;
+  max-width: 1800px;
+}
+
+@media (max-width: 320px) {
+  header {
+    padding: 0.5rem;
+    padding-bottom: 1rem;
+  }
+}
+
+main {
+  grid-area: main;
+  max-width: 1280px;
+  margin: 0 auto;
+}
+
+footer {
+  grid-area: footer;
+  padding: 1rem;
+  padding-top: 3rem;
+}
