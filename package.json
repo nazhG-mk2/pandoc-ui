@@ -15,6 +15,7 @@
     "@tanstack/react-query": "^5.69.0",
     "@uiw/react-md-editor": "^4.0.5",
     "connectkit": "^1.8.2",
+    "dotenv": "^16.4.7",
     "hypercyclejs": "^0.0.1",
     "js-confetti": "^0.12.0",
     "lucide-react": "^0.483.0",
@@ -27,11 +28,13 @@
   "devDependencies": {
     "@types/react": "^18.2.15",
     "@types/react-dom": "^18.2.7",
+    "@vitejs/plugin-react": "^4.3.4",
     "@vitejs/plugin-react-swc": "^3.3.2",
     "eslint": "^8.45.0",
     "eslint-plugin-react": "^7.32.2",
     "eslint-plugin-react-hooks": "^4.6.0",
     "eslint-plugin-react-refresh": "^0.4.3",
     "vite": "^6.2.2"
-  }
+  },
+  "packageManager": "pnpm@9.15.0+sha512.76e2379760a4328ec4415815bcd6628dee727af3779aaa4c914e3944156c4299921a89f976381ee107d41f12cfa4b66681ca9c718f0668fa0831ed4c6d8ba56c"
 }

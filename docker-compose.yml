@@ -4,6 +4,5 @@ services:
     ports:
       - "4173:4173"
     restart: always
-    environment:
-      - VITE_NODE_URL=http://54.71.14.117:8000
-      - VITE_LLM_SLOT=7
+    env_file:
+      - .env
